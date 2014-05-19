@@ -1,15 +1,15 @@
 {
   "fatal_error": {
-    "message": "fatal error"
+    "message": "kritiska kļūda"
   },
   "Please_consider_a_donation": {
-    "message": "Please consider a donation"
+    "message": "Lūdzu, apsver iespēju noziedot"
   },
   "Invalid_scheme_of_url": {
-    "message": "Invalid scheme of url"
+    "message": "nederīga saites shēma"
   },
   "run_script_0url0___0name0": {
-    "message": "Run script $name$ @ $url$",
+    "message": "Palaist skriptu $name$ @ $url$",
     "placeholders": {
       "url": {
          "content": "$1"
@@ -20,16 +20,16 @@
     }
   },
   "env_option__debug_scripts": {
-    "message": "Env option: debug scripts"
+    "message": "Env izvēle: skripta atkļūdošana"
   },
   "Invalid_UserScript__Sry_": {
-    "message": "Invalid UserScript. Sry!"
+    "message": "Kļūdains skripts. Atvaino!"
   },
   "Invalid_UserScript_name__Sry_": {
-    "message": "Invalid UserScript name. Sry!"
+    "message": "Kļūdains skripta nosaukums. Atvaino!"
   },
   "Script_name_0url0": {
-    "message": "Script name: $name$",
+    "message": "Skripta nosaukums: $name$",
     "placeholders": {
       "name": {
          "content": "$1"
@@ -37,7 +37,7 @@
     }
   },
   "Downloaded_from_0url0": {
-    "message": "Downloaded from: $url$",
+    "message": "lejupielādēns no: $url$",
     "placeholders": {
       "url": {
          "content": "$1"
@@ -45,49 +45,49 @@
     }
   },
   "Unable_to_get_UserScript__Sry_": {
-    "message": "Unable to load the UserScript. Sry!"
+    "message": "Nevarēja ielādēt skriptu. Atvaino!"
   },
   "Please_double_check_the_native_script_import_settings__": {
-    "message": "Unable to load the UserScript!\n\nPlease double check the 'Native Script Import' settings."
+    "message": "Nevarēja ielādēt skriptu!\n\nVēlreiz pārbaudi 'Native Script Import' iestatījumus."
   },
   "Name": {
-    "message": "Name"
+    "message": "Nosaukums"
   },
   "Note": {
-    "message": "Note"
+    "message": "Piezīme"
   },
   "Installed_Version_": {
-    "message": "Installed Version"
+    "message": "instalētā versija"
   },
   "You_are_about_to_reinstall_a_UserScript_": {
-    "message": "UserScript re-installation"
+    "message": "Skripta pārinstalēšana"
   },
   "You_are_about_to_downgrade_a_UserScript": {
-    "message": "Attention! Userscript downgrade"
+    "message": "Uzmanību! Skripta versijas pazemināšana"
   },
   "The_downgraded_script_might_have_problems_to_read_its_stored_data_": {
-    "message": "The downgraded script might have problems to read its stored data!"
+    "message": "Skripta versijas pazemināšana var izraisīt problēmas tā datu nolasīšanā!"
   },
   "Malicious_scripts_can_violate_your_privacy_": {
-    "message": "Malicious scripts can violate your privacy and act on your behalf!\nYou should only install scripts from sources that you trust."
+    "message": "Ļaunprātīgi skripti var piekļūt taviem datiem un darboties bez tavas ziņas!\nInstalē skriptus tikai no drošiem avotiem."
   },
   "You_are_about_to_modify_a_UserScript_": {
-    "message": "UserScript modification"
+    "message": "Skripta pārveidošana"
   },
   "You_are_about_to_update_a_UserScript_": {
-    "message": "UserScript update"
+    "message": "Skripta atjaunošana"
   },
   "You_are_about_to_install_a_UserScript_": {
-    "message": "UserScript installation"
+    "message": "Skripta instalēšana"
   },
   "This_script_does_not_provide_any__include_information_": {
-    "message": "This script does not provide any @include information."
+    "message": "Skriptā nav iekļauta nekāda @include informācija."
   },
   "All_script_settings_will_be_reset_": {
-    "message": "All script settings will be reset!"
+    "message": "Visi skripta iestatījumi tiks nodzēsti!"
   },
   "Tampermonkey_assumes_0urlAllHttp0_in_order_to_continue_": {
-    "message": "Tampermonkey assumes '$urlAllHttp$' in order to continue!",
+    "message": "Tampermonkey pieprasa '$urlAllHttp$', lai turpinātu!",
     "placeholders": {
       "urlAllHttp": {
          "content": "$1"
@@ -95,7 +95,7 @@
     }
   },
   "The_update_url_has_changed_from_0oldurl0_to__0newurl0": {
-    "message": "The update url has changed from:\n    '$oldurl$'\n    to:\n    '$newurl$'\n",
+    "message": "Atjaunotā saite tika mainīta no:\n    '$oldurl$'\n    uz:\n    '$newurl$'\n",
     "placeholders": {
       "oldurl": {
          "content": "$1"
@@ -106,10 +106,10 @@
     }
   },
   "Attention_Can_not_display_all_includes_": {
-    "message": "Attention: The include list was shortened.\nPlease check it manually!"
+    "message": "Uzmanību: include saraksts tika samazināts.\nPārbaudi to!"
   },
   "Attention_Can_not_display_all_excludes_": {
-    "message": "Attention: The exclude list was shortened.\nPlease check it manually!"
+    "message": "Uzmanību: exclude saraksts tika samazināts .\nPārbaudi to!"
   },
   "Include_s__": {
     "message": "Include(s)"
@@ -118,40 +118,40 @@
     "message": "Exclude(s)"
   },
   "A_recheck_of_the_GreaseMonkey_FF_compatibility_options_may_be_required_in_order_to_run_this_script_": {
-    "message": "A recheck of the GreaseMonkey/FF compatibility options may be required in order to run this script."
+    "message": "Atkārtota GreaseMonkey/FF uzstādījumu savietojamības pārbaude var tikt pieprasīta, lai palaistu šo skriptu."
   },
   "Author": {
-    "message": "Author"
+    "message": "Autors"
   },
   "Description": {
-    "message": "Description"
+    "message": "Apraksts"
   },
   "Source": {
-    "message": "Source"
+    "message": "Pirmkods"
   },
   "Install": {
-    "message": "Install"
+    "message": "Instalēt"
   },
   "Reinstall": {
-    "message": "Reinstall"
+    "message": "Pārinstalēt"
   },
   "Modify": {
-    "message": "Modify"
+    "message": "Pārveidot"
   },
   "Downgrade": {
-    "message": "Downgrade"
+    "message": "Pazemināt"
   },
   "Update": {
-    "message": "Update"
+    "message": "Atjaunot"
   },
   "Process_with_Chrome": {
-    "message": "Process with Chrome"
+    "message": "Turpini ar Chrome"
   },
   "Do_you_want_to_continue_": {
-    "message": "Do you want to continue?"
+    "message": "Vēlies turpināt?"
   },
   "Update_found_for_0name0_": {
-    "message": "Update found for $name$.",
+    "message": "Atrasti atjauninājumi $name$.",
     "placeholders": {
       "name": {
          "content": "$1"
@@ -159,7 +159,7 @@
     }
   },
   "UpdateCheck_of_0name0_Url_0url0_failed_": {
-    "message": "UpdateCheck of '$name$' (Url: $url$) failed!",
+    "message": "Atjauninājumu pārbaude '$name$' (Saite: $url$) neizdevās!",
     "placeholders": {
       "name": {
          "content": "$1"
@@ -170,25 +170,25 @@
     }
   },
   "No_update_found__sry_": {
-    "message": "No update found, sry!"
+    "message": "Atjauninājumi nav atrasti!"
   },
   "Unable_to_save_tab_due_to_empty_tabID_": {
-    "message": "Unable to save tab due to empty tabID!"
+    "message": "Nevar saglabāt dēļ tukša tabID!"
   },
   "Unable_to_load_storage_due_to_empty_tabID_": {
-    "message": "Unable to load storage due to empty tabID!"
+    "message": "Nevar ielādēt glabātuvi dēļ tukša tabID!"
   },
   "Unable_to_save_storage_due_to_empty_tabID_": {
-    "message": "Unable to save storage due to empty tabID!"
+    "message": "Nevar saglabāt dēļ tukša tabID!"
   },
   "Unable_to_install_script_due_to_empty_tabID_": {
-    "message": "Unable to install script due to empty tabID!"
+    "message": "Nevar ieinstalēt skriptu dēļ tukša tabID!"
   },
   "Unable_to_run_scripts_due_to_empty_tabID_": {
-    "message": "Unable to run scripts due to empty tabID!"
+    "message": "Nevar palaist skriptu dēļ tukša tabID!"
   },
   "Unknown_method_0name0": {
-    "message": "Unknown method $name$",
+    "message": "Nezināma metode $name$",
     "placeholders": {
       "name": {
          "content": "$1"
@@ -196,25 +196,25 @@
     }
   },
   "No_script_is_running": {
-    "message": "No script is running"
+    "message": "Neviens skripts nav palaists"
   },
   "Add_new_script___": {
-    "message": "Add a new script..."
+    "message": "Pievienot jaunu skriptu..."
   },
   "Get_new_scripts___": {
-    "message": "Get new scripts..."
+    "message": "Iegūt jaunu skriptu..."
   },
   "Check_for_userscripts_updates": {
-    "message": "Check for userscript updates"
+    "message": "Pārbaudīt skriptu atjauninājumus"
   },
   "Settings": {
-    "message": "Settings"
+    "message": "Iestatījumi"
   },
   "Make_includes_more_safe": {
-    "message": "Make includes more safe"
+    "message": "Padari includes drošākas"
   },
   "Includes_more_safe_example": {
-    "message": "(if enabled for example 'http://*google.*/*' is interpreted as 'http://*google.tld/*' to avoid this script to work on 'http://www.google.myevilpage.com/')"
+    "message": "(ja iespējotais 'http://*google.*/*' tiek interpretēts kā 'http://*google.tld/*' to avoid this script to work on 'http://www.google.myevilpage.com/')"
   },
   "Fix_includes": {
     "message": "Fix includes"
